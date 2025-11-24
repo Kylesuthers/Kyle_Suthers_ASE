@@ -1,0 +1,530 @@
+{
+  "source_base_path": "C:/Users/Kyle Suthers/source/repos/ase-boose-assignment-Kylesuthers",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSEAppFinal.AppCanvas.yml\" sourcestartlinenumber=\"1\">Provides a drawing canvas implementation for the BOOSE application, supporting basic drawing operations such as lines, shapes, and text.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSEAppFinal.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Factory for creating application-specific command objects.\nExtends <xref href=\"BOOSE.CommandFactory\" data-throw-if-not-resolved=\"false\"></xref> to support additional commands\nused within the BOOSE application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.BooseRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.BooseRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.BooseRunner",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.MyCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.MyCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.MyCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEAppFinal.MyCircle.yml\" sourcestartlinenumber=\"1\">Represents the Circle command, which drawing a circle\nusing the provided radius at the current canvas position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.MyDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.MyDrawTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.MyDrawTo",
+      "Summary": "<p sourcefile=\"api/BOOSEAppFinal.MyDrawTo.yml\" sourcestartlinenumber=\"1\">Handles the <code>DrawTo</code> command, which draws a straight line\nfrom the canvas’s current position to a new set of X and Y coordinates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.MyMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.MyMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.MyMoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSEAppFinal.MyMoveTo.yml\" sourcestartlinenumber=\"1\">Represents the MoveTo command, which simply moves the canvas cursor\nto a chosen X and Y position without drawing anything.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.MyParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.MyParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.MyParser",
+      "Summary": "<p sourcefile=\"api/BOOSEAppFinal.MyParser.yml\" sourcestartlinenumber=\"1\">Provides parsing functionality for BOOSE programs, allowing commands to be parsed\nand added to a stored program without enforcing BOOSE-specific limits.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.MyRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.MyRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.MyRect",
+      "Summary": "<p sourcefile=\"api/BOOSEAppFinal.MyRect.yml\" sourcestartlinenumber=\"1\">Represents the Rect command, which draws a rectangle\nusing the provided width and height at the current canvas position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.Tests.Test1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.Tests.Test1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.Tests.Test1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEAppFinal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEAppFinal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEAppFinal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.CommandsTests.AppCanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.CommandsTests.AppCanvasTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.CommandsTests.AppCanvasTests",
+      "Summary": "<p sourcefile=\"api/BOOSETestProject.CommandsTests.AppCanvasTests.yml\" sourcestartlinenumber=\"1\">Contains unit tests for checking that the AppCanvas behaves as expected.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.CommandsTests.CircleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.CommandsTests.CircleTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.CommandsTests.CircleTests",
+      "Summary": "<p sourcefile=\"api/BOOSETestProject.CommandsTests.CircleTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the MyCircle command, ensuring radius handling works as expected.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.CommandsTests.CommandFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.CommandsTests.CommandFactoryTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.CommandsTests.CommandFactoryTests",
+      "Summary": "<p sourcefile=\"api/BOOSETestProject.CommandsTests.CommandFactoryTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"AppCommandFactory\" data-throw-if-not-resolved=\"false\"></xref> class.\nEnsures that supported command names produce\nthe correct object.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.CommandsTests.MoveToTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.CommandsTests.MoveToTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.CommandsTests.MoveToTests",
+      "Summary": "<p sourcefile=\"api/BOOSETestProject.CommandsTests.MoveToTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEAppFinal.MyMoveTo\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.CommandsTests.MyDrawToTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.CommandsTests.MyDrawToTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.CommandsTests.MyDrawToTests",
+      "Summary": "<p sourcefile=\"api/BOOSETestProject.CommandsTests.MyDrawToTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEAppFinal.MyDrawTo\" data-throw-if-not-resolved=\"false\"></xref> command, ensuring that drawing\nand coordinate validation behave as expected.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.CommandsTests.MyMoveToTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.CommandsTests.MyMoveToTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.CommandsTests.MyMoveToTests",
+      "Summary": "<p sourcefile=\"api/BOOSETestProject.CommandsTests.MyMoveToTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEAppFinal.MyMoveTo\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.CommandsTests.RectTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.CommandsTests.RectTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.CommandsTests.RectTests",
+      "Summary": "<p sourcefile=\"api/BOOSETestProject.CommandsTests.RectTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEAppFinal.MyRect\" data-throw-if-not-resolved=\"false\"></xref> command.\nThese tests check that rectangles are drawn correctly\nand that invalid input produces the expected exceptions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.CommandsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.CommandsTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.CommandsTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.FactoryTests.CommandFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.FactoryTests.CommandFactoryTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.FactoryTests.CommandFactoryTests",
+      "Summary": "<p sourcefile=\"api/BOOSETestProject.FactoryTests.CommandFactoryTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"AppCommandFactory\" data-throw-if-not-resolved=\"false\"></xref> class.\nEnsures that supported command names produce\nthe correct object.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETestProject.FactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSETestProject.FactoryTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETestProject.FactoryTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.MyAppCanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEUnitTests.MyAppCanvasTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.MyAppCanvasTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.MyAppCanvasTests.yml\" sourcestartlinenumber=\"1\">Contains unit tests for checking that the <xref href=\"BOOSEAppFinal.AppCanvas\" data-throw-if-not-resolved=\"false\"></xref> behaves as expected.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.MyCircleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEUnitTests.MyCircleTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.MyCircleTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.MyCircleTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the command <xref href=\"BOOSEAppFinal.MyCircle\" data-throw-if-not-resolved=\"false\"></xref>, thus ensuring radius handling works as expected.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.MyCommandFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEUnitTests.MyCommandFactoryTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.MyCommandFactoryTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.MyCommandFactoryTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEAppFinal.AppCommandFactory\" data-throw-if-not-resolved=\"false\"></xref> class.\nEnsures that supported command names produce\nthe correct object.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.MyDrawToTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEUnitTests.MyDrawToTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.MyDrawToTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.MyDrawToTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEAppFinal.MyDrawTo\" data-throw-if-not-resolved=\"false\"></xref> command, ensuring that drawing\nand coordinate validation behave as expected.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.MyMoveToTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEUnitTests.MyMoveToTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.MyMoveToTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.MyMoveToTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEAppFinal.MyMoveTo\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.MyRectTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEUnitTests.MyRectTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.MyRectTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.MyRectTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEAppFinal.MyRect\" data-throw-if-not-resolved=\"false\"></xref> command.\nThese tests check that rectangles are drawn correctly\nand that invalid input produces the expected exceptions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSEUnitTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WK2PaintPotApp.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "WK2PaintPotApp.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WK2PaintPotApp.Form1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WK2PaintPotApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "WK2PaintPotApp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "WK2PaintPotApp",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wk2DrawingAPP.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Wk2DrawingAPP.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Wk2DrawingAPP.Form1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Wk2DrawingAPP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Wk2DrawingAPP.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Wk2DrawingAPP",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1unrestrictedDrawing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1unrestrictedDrawing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/my1restrictedDrawing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/my1restrictedDrawing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
